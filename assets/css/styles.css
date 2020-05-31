@@ -1,0 +1,340 @@
+
+/* ========================= Menu Tilt ========================= */
+
+
+body {
+	 font-family: 'Architects Daughter', sans-serif;
+}
+
+ #paper-back {
+	 width: 100%;
+	 height: 100vh;
+	 background-color: #FF0000;
+	 position: fixed;
+	 top: 0;
+	 left: 0;
+	 font-size: 15px;
+   font-family: 'Special Elite', cursive;
+}
+ #paper-back nav {
+	 padding: 120px 34px;
+}
+ #paper-back nav a {
+	 display: block;
+	 margin-bottom: 25px;
+	 text-decoration: none;
+	 color: rgba(255, 255, 255, 0.7);
+}
+ #paper-window {
+	 height: 100vh;
+	 width: 100vw;
+	 position: relative;
+	 overflow-x: hidden;
+	 overflow-y: scroll;
+	 z-index: 2;
+}
+ #paper-window.tilt {
+	 overflow: hidden;
+	 pointer-events: none;
+}
+ #paper-window.tilt #paper-front {
+	 transform: rotate(10deg) translateZ(0);
+}
+ #paper-front {
+	 pointer-events: auto;
+	 position: relative;
+	 z-index: 3;
+	 background-color: white;
+	 box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+	 transform-origin: center 70%;
+	 transition: all 0.3s ease;
+}
+ #container section {
+	 /* height: 600px; */
+	 text-align: center;
+}
+ #container section:first-of-type {
+	 padding-top: 10vh;
+}
+ #container section:first-of-type h1 {
+	 font-size: 45px;
+}
+ #container section:first-of-type p {
+	 font-size: 25px;
+}
+ @media (max-width: 600px) {
+	 #container section:first-of-type {
+		 padding-top: 15vh;
+	}
+	 #container section:first-of-type h1 {
+		 font-size: 30px;
+	}
+	 #container section:first-of-type p {
+		 font-size: 18px;
+	}
+}
+ #container section:nth-of-type(2n) {
+	 background-color: #edf1f5;
+}
+ .hamburger {
+	 position: fixed;
+	 z-index: 4;
+	 top: 30px;
+	 left: 30px;
+	 width: 35px;
+	 height: 34px;
+	 cursor: pointer;
+	 user-select: none;
+}
+ .hamburger span {
+	 position: relative;
+}
+ .hamburger span, .hamburger span:before, .hamburger span:after {
+	 display: block;
+	 width: 45px;
+	 height: 6px;
+	 background-color: #FF0000;
+	 border-radius: 2px;
+}
+ .hamburger span:before, .hamburger span:after {
+	 content: '';
+	 position: absolute;
+}
+ .hamburger span:before {
+	 bottom: -14px;
+}
+ .hamburger span:after {
+	 bottom: -28px;
+}
+ .close {
+	 position: fixed;
+	 top: 30px;
+	 left: 30px;
+	 width: 45px;
+	 height: 34px;
+	 cursor: pointer;
+}
+ .close:before, .close:after {
+	 content: '';
+	 position: absolute;
+	 display: block;
+	 width: 30px;
+	 height: 3px;
+	 top: 50%;
+	 background-color: white;
+	 border-radius: 2px;
+}
+ .close:before {
+	 transform: translateY(-50%) rotate(45deg);
+}
+ .close:after {
+	 transform: translateY(-50%) rotate(-45deg);
+}
+
+/* ========================= Menu Tilt / End ========================= */
+
+
+
+
+
+
+
+/* ========================= Section Bent ========================= */
+
+.section-bent {
+  background-color: black;
+  position: relative;
+  overflow: visible;
+  z-index: 2;
+}
+
+.section-bent .section-top,
+.section-bent .section-bottom {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 60%;
+  min-height: 340px;
+  transform: skewY(5deg);
+  -webkit-transform: skewY(5deg);
+}
+
+.section-bent .section-top { top: -170px; }
+.section-bent .section-bottom { bottom: -170px; }
+
+.padding-t-bent { padding-top: 340px; }
+.padding-b-bent { padding-bottom: 340px; }
+
+/* Section - Double */
+
+.section-double .image { position: absolute; top: 0; height: 100%; }
+.section-double .content {
+  padding: 0 6%;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+.section-double.left .image { left: 0; }
+.section-double.right .image { right: 0; }
+
+
+
+
+
+/* ========================= Section Bent / End ========================= */
+
+
+
+	.bg-black { background-color: #161616; }
+
+
+
+
+/* sectionbent2 */
+
+
+.section-bent2 {
+  background-color: black;
+  position: relative;
+  overflow: visible;
+  z-index: 2;
+}
+
+.section-bent2 .section-top,
+.section-bent2 .section-bottom {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 60%;
+  min-height: 340px;
+  transform: skewZ(5deg);
+  -webkit-transform: skewZ(5deg);
+}
+
+.section-bent2 .section-top { top: -170px; }
+.section-bent2 .section-bottom { bottom: -170px; }
+
+
+
+
+
+
+
+/* sectionbent2 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* ANGLED DIV */
+
+
+
+
+ .promo {
+	 clip-path: polygon(0 0, 1600px 0, 1600px 100%, 0 75%);
+}
+ .promo {
+   background-color: yellow;
+	 background-size: cover;
+	 color: #fff;
+	 margin: 50px 0;
+   height: 100%;
+	 overflow: hidden;
+   padding-top: 150px;
+   padding-bottom: 150px;
+	 /* padding: 150px 20px; */
+	 position: relative;
+	 text-align: center;
+	 text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
+   margin-top:0px;
+}
+
+
+
+#topheader {
+  background-color: black;
+  min-height: 800px;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90.7%);
+}
+
+#aboutme {
+  background-color: orange;
+  min-height: 500px;
+  margin-top:-80px;
+  clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%);
+}
+
+#lastjavaproject {
+  background-color: white;
+  min-height: 500px;
+  margin-top:-80px;
+  clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%);
+
+}
+
+#githubaccount {
+  background-image: url("../graphics/bck-green.jpg");
+  background-color: #e86f39;
+
+  /* background-attachment: fixed; */
+  min-height: 500px;
+  margin-top:-80px;
+  clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%);
+}
+
+
+#technologies {
+  background-color: white;
+  min-height: 500px;
+  margin-top:-80px;
+  clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%);
+}
+
+#javaprojects {
+  background-image: url("../graphics/bck-green.jpg");
+  background-color: yellow;
+  min-height: 500px;
+  margin-top:-80px;
+  clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%);
+}
+
+#otherexperience {
+  background-color: white;
+  min-height: 500px;
+  margin-top:-80px;
+  clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%);
+}
+
+#inmyfreetime {
+  background-image: url("../graphics/bck-green.jpg");
+  background-color: red;
+  min-height: 500px;
+  margin-top:-80px;
+  clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 100%);
+}
+
+#footer {
+  background-image: url("../graphics/bck-dark2.jpg");
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+  background-color: black;
+  color:white;
+  min-height: 70px;
+  margin-top:-40px;
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+}
