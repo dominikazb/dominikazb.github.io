@@ -1,10 +1,12 @@
 
-/* ========================= Menu Tilt ========================= */
-
-
-body {
+body, html {
 	 font-family: 'Architects Daughter', sans-serif;
+	 height: 100%;
+	 width: 100%;
 }
+
+
+/* ========================= Menu Tilt ========================= */
 
  #paper-back {
 	 width: 100%;
@@ -50,7 +52,6 @@ body {
 	 transition: all 0.3s ease;
 }
  #container section {
-	 /* height: 600px; */
 	 text-align: center;
 }
  #container section:first-of-type {
@@ -81,8 +82,7 @@ body {
 	 z-index: 4;
 	 top: 30px;
 	 left: 30px;
-	 width: 35px;
-	 height: 34px;
+   color: gray;
 	 cursor: pointer;
 	 user-select: none;
 }
@@ -91,9 +91,8 @@ body {
 }
  .hamburger span, .hamburger span:before, .hamburger span:after {
 	 display: block;
-	 width: 45px;
-	 height: 6px;
-	 background-color: #FF0000;
+   font-size: 50px;
+	 background-color: transparent;
 	 border-radius: 2px;
 }
  .hamburger span:before, .hamburger span:after {
@@ -135,206 +134,254 @@ body {
 
 
 
-
-
-
-
-/* ========================= Section Bent ========================= */
-
-.section-bent {
-  background-color: black;
-  position: relative;
-  overflow: visible;
-  z-index: 2;
-}
-
-.section-bent .section-top,
-.section-bent .section-bottom {
-  position: absolute;
-  left: 0;
-  right: 0;
-  width: 100%;
-  height: 60%;
-  min-height: 340px;
-  transform: skewY(5deg);
-  -webkit-transform: skewY(5deg);
-}
-
-.section-bent .section-top { top: -170px; }
-.section-bent .section-bottom { bottom: -170px; }
-
-.padding-t-bent { padding-top: 340px; }
-.padding-b-bent { padding-bottom: 340px; }
-
-/* Section - Double */
-
-.section-double .image { position: absolute; top: 0; height: 100%; }
-.section-double .content {
-  padding: 0 6%;
-  transition: all 0.3s;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -o-transition: all 0.3s;
-}
-.section-double.left .image { left: 0; }
-.section-double.right .image { right: 0; }
-
-
-
-
-
-/* ========================= Section Bent / End ========================= */
-
-
-
-	.bg-black { background-color: #161616; }
-
-
-
-
-/* sectionbent2 */
-
-
-.section-bent2 {
-  background-color: black;
-  position: relative;
-  overflow: visible;
-  z-index: 2;
-}
-
-.section-bent2 .section-top,
-.section-bent2 .section-bottom {
-  position: absolute;
-  left: 0;
-  right: 0;
-  width: 100%;
-  height: 60%;
-  min-height: 340px;
-  transform: skewZ(5deg);
-  -webkit-transform: skewZ(5deg);
-}
-
-.section-bent2 .section-top { top: -170px; }
-.section-bent2 .section-bottom { bottom: -170px; }
-
-
-
-
-
-
-
-/* sectionbent2 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  /* ANGLED DIV */
-
-
-
-
- .promo {
-	 clip-path: polygon(0 0, 1600px 0, 1600px 100%, 0 75%);
-}
- .promo {
-   background-color: yellow;
-	 background-size: cover;
-	 color: #fff;
-	 margin: 50px 0;
-   height: 100%;
-	 overflow: hidden;
-   padding-top: 150px;
-   padding-bottom: 150px;
-	 /* padding: 150px 20px; */
-	 position: relative;
-	 text-align: center;
-	 text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
-   margin-top:0px;
-}
-
-
+/* ========================= Sections ========================= */
 
 #topheader {
-  background-color: black;
-  min-height: 800px;
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90.7%);
+	min-height: 900px;
+	font: Raleway;
+	font-size: 100px;
+  background-color: #222;
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 85%);
 }
 
+#topheaderinside {
+	padding-left: 100px;
+	padding-top: 300px;
+	padding-bottom: 100px;
+}
+
+
+h1,h2 {
+	font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+}
+h1 {
+	color: #888;
+	font-size: 60px;
+}
+h2 {
+  color: #888;
+  /* font-size: 0.25em; */
+}
+
+/* ==================== about me ====================*/
 #aboutme {
-  background-color: orange;
-  min-height: 500px;
-  margin-top:-80px;
+  background-color: #E87039;
+  min-height: 600px;
+  margin-top:-180px;
   clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%);
 }
 
+#aboutmeinside {
+	padding-top: 300px;
+	padding-left: 250px;
+	padding-bottom: 300px;
+	padding-right: 250px;
+}
+
+
+.gray {
+	color: #888;
+}
+
+.white {
+	color:white;
+}
+
+
+.leftimagecolumn {
+	height: 100%;
+	line-height: 50%;
+}
+
+
+
+.aboutmeinterior {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
+	font-size: 17px;
+  color: #000;
+}
+
+
+/* ==================== last java project ====================*/
 #lastjavaproject {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
+	color: white;
   background-color: white;
   min-height: 500px;
   margin-top:-80px;
   clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%);
-
 }
 
+.lastjavaproject_inside {
+	color:white;
+	text-align: center;
+	padding-top: 250px;
+	padding-left: 250px;
+	padding-bottom: 250px;
+	padding-right: 250px;
+}
+
+.borderedimage {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #888;
+	border-radius: 5px;
+}
+
+
+.linkbox {
+	display: flex;
+  justify-content: center;
+  align-items: center;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 10px;
+	width: 120px;
+	height: 50px;
+	border-color: #888;
+	font-size: 30px;
+}
+
+
+/* ==================== github ====================*/
 #githubaccount {
-  background-image: url("../graphics/bck-green.jpg");
-  background-color: #e86f39;
-
-  /* background-attachment: fixed; */
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
+  background-color: #E87039;
   min-height: 500px;
   margin-top:-80px;
   clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%);
 }
 
+.github_inside {
+	text-align: center;
+	padding-top: 250px;
+	padding-left: 250px;
+	padding-bottom: 250px;
+	padding-right: 250px;
+}
 
+
+/* ==================== technologies ====================*/
 #technologies {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
   background-color: white;
   min-height: 500px;
   margin-top:-80px;
   clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%);
 }
 
+.technologies_inside {
+	text-align: center;
+	width: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top:250px;
+	padding-bottom:250px;
+}
+
+
+
+
+@media (min-width:1025px) {
+    .technologies_inside {
+    width: 60% !important;
+    }
+}
+
+
+
+
+
+/* ==================== java projects ====================*/
 #javaprojects {
-  background-image: url("../graphics/bck-green.jpg");
-  background-color: yellow;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
+  background-color: #E87039;
   min-height: 500px;
   margin-top:-80px;
   clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%);
 }
+
+.javaprojects_inside {
+	text-align: center;
+	padding-top: 250px;
+	padding-left: 250px;
+	padding-bottom: 250px;
+	padding-right: 250px;
+}
+
+
+.linkboxsmaller {
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 10px;
+	width: 100px;
+	height: 50px;
+	border-color: white;
+	font-size: 24px;
+}
+
+
+/* ==================== other experience ====================*/
 
 #otherexperience {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
   background-color: white;
   min-height: 500px;
   margin-top:-80px;
   clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%);
 }
 
+
+/* ==================== in my free time ====================*/
+
 #inmyfreetime {
-  background-image: url("../graphics/bck-green.jpg");
-  background-color: red;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
+  background-color: #E87039;
   min-height: 500px;
   margin-top:-80px;
   clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 100%);
 }
 
+.inmyfreetime_interior {
+	padding-top:200px;
+	padding-bottom:200px;
+	padding-left: 200px;
+	padding-right: 200px;
+	text-align: center;
+}
+
+
+/* ========================= Sections / End ========================= */
+
 #footer {
-  background-image: url("../graphics/bck-dark2.jpg");
-  background-size:100% 100%;
-  background-repeat: no-repeat;
-  background-color: black;
-  color:white;
+  font-family: 'Special Elite', cursive;
+	background-color: #222;
+	color: #888;
   min-height: 70px;
   margin-top:-40px;
   clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.footer_inside {
+	padding-top: 20px;
+  margin-left: 20px;
+  margin-right:20px;
+  bottom: 0px;
+}
+
+.socialicons {
+  margin-right:20px;
 }
