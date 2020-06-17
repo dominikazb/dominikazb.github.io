@@ -164,22 +164,6 @@ h2 {
   /* font-size: 0.25em; */
 }
 
-/* ==================== about me ====================*/
-#aboutme {
-  background-color: #E87039;
-  min-height: 600px;
-  margin-top:-180px;
-  clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%);
-}
-
-#aboutmeinside {
-	padding-top: 300px;
-	padding-left: 250px;
-	padding-bottom: 300px;
-	padding-right: 250px;
-}
-
-
 .gray {
 	color: #888;
 }
@@ -189,40 +173,78 @@ h2 {
 }
 
 
-.leftimagecolumn {
-	height: 100%;
-	line-height: 50%;
-}
-
-
-
-.aboutmeinterior {
+/* ==================== about me ====================*/
+#aboutme {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 200;
 	font-size: 17px;
-  color: #000;
-}
-
-
-/* ==================== last java project ====================*/
-#lastjavaproject {
-	font-family: 'Raleway', sans-serif;
-	font-weight: 200;
-	color: white;
-  background-color: white;
-  min-height: 500px;
-  margin-top:-80px;
+	color: #000;
+  background-color: #E87039;
+  margin-top: 0px;
   clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%);
 }
 
-.lastjavaproject_inside {
-	color:white;
-	text-align: center;
+
+
+.aboutme_inside {
+	text-align: justify;
+	width: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 	padding-top: 250px;
-	padding-left: 250px;
 	padding-bottom: 250px;
-	padding-right: 250px;
 }
+
+@media (min-width:1025px) {
+    .aboutme_inside {
+    width: 60% !important;
+    }
+}
+
+
+
+/* ==================== last java project ====================*/
+#latestjavaproject {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
+
+  background-color: white;
+  margin-top:0px;
+  clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%);
+}
+
+
+.latestjavaproject_inside {
+	background-color:red;
+	text-align: center;
+	width: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top:250px;
+	padding-bottom:250px;
+}
+
+@media (min-width:1025px) {
+    .latestjavaproject_inside {
+    width: 100% !important;
+    }
+}
+
+.latestprojectimg {
+	width: 100%;
+}
+
+
+
+@media (min-width:1025px) {
+    .latestprojectimg {
+    width: 60% !important;
+    }
+}
+
+
 
 .borderedimage {
 	border-style: solid;
@@ -256,12 +278,21 @@ h2 {
   clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%);
 }
 
+
 .github_inside {
 	text-align: center;
-	padding-top: 250px;
-	padding-left: 250px;
-	padding-bottom: 250px;
-	padding-right: 250px;
+	width: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top:250px;
+	padding-bottom:250px;
+}
+
+@media (min-width:1025px) {
+    .github_inside {
+    width: 60% !important;
+    }
 }
 
 
@@ -281,12 +312,9 @@ h2 {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	padding-top:250px;
+	padding-top:300px;
 	padding-bottom:250px;
 }
-
-
-
 
 @media (min-width:1025px) {
     .technologies_inside {
@@ -310,11 +338,20 @@ h2 {
 
 .javaprojects_inside {
 	text-align: center;
-	padding-top: 250px;
-	padding-left: 250px;
-	padding-bottom: 250px;
-	padding-right: 250px;
+	width: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top:250px;
+	padding-bottom:250px;
 }
+
+@media (min-width:1025px) {
+    .javaprojects_inside {
+    width: 60% !important;
+    }
+}
+
 
 
 .linkboxsmaller {
@@ -341,6 +378,24 @@ h2 {
   min-height: 500px;
   margin-top:-80px;
   clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%);
+}
+
+
+
+.otherexperience_inside {
+	text-align: center;
+	width: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top:250px;
+	padding-bottom:250px;
+}
+
+@media (min-width:1025px) {
+    .otherexperience_inside {
+    width: 60% !important;
+    }
 }
 
 
