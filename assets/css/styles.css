@@ -140,14 +140,69 @@ body, html {
 	font: Raleway;
 	font-size: 100px;
   background-color: #222;
-  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 85%);
+  /* clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 85%); */
 }
 
-#topheaderinside {
-	padding-left: 100px;
-	padding-top: 300px;
-	padding-bottom: 100px;
+
+@media (max-width: 300px) {
+	#topheaderinside {
+		text-align: left;
+		width: 70%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 400px;
+		padding-bottom: 400px;
+	}
 }
+@media (min-width: 301px) and (max-width: 600px) {
+	#topheaderinside {
+		text-align: left;
+		width: 70%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 400px;
+		padding-bottom: 400px;
+	}
+}
+@media (min-width: 601px) and (max-width: 768px) {
+	#topheaderinside {
+		text-align: left;
+		width: 70%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 400px;
+		padding-bottom: 400px;
+	}
+}
+@media (min-width: 769px) {
+    #topheaderinside {
+			text-align: left;
+			width: 70%;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			padding-top: 400px;
+			padding-bottom: 400px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    #topheaderinside {
+			text-align: left;
+			width: 60%;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			padding-top: 400px;
+			padding-bottom: 400px;
+			margin-left: 130px;
+    }
+}
+
 
 
 h1,h2 {
@@ -179,7 +234,7 @@ h2 {
 	font-size: 17px;
 	color: #000;
   background-color: #E87039;
-  clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%);
+  /* clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%); */
 }
 
 
@@ -248,7 +303,7 @@ h2 {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 200;
   background-color: white;
-  clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%);
+  /* clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%); */
 }
 
 
@@ -300,6 +355,11 @@ h2 {
 }
 
 
+a.latestjavaprojectlink {
+	color: #888;
+	text-decoration: none;
+}
+
 
 .latestprojectimg {
 	width: 100%;
@@ -322,8 +382,24 @@ h2 {
 	border-radius: 10px;
 	width: 120px;
 	height: 50px;
+	margin-top:20px;
 	border-color: #888;
 	font-size: 30px;
+}
+
+@media (min-width: 769px) {
+    .linkbox {
+			display: flex;
+		  justify-content: center;
+		  align-items: center;
+			border-style: solid;
+			border-width: 2px;
+			border-radius: 10px;
+			width: 120px;
+			height: 50px;
+			border-color: #888;
+			font-size: 30px;
+    }
 }
 
 
@@ -351,7 +427,7 @@ i.fas.fa-eye::before {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 200;
   background-color: #E87039;
-  clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%);
+  /* clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%); */
 }
 
 
@@ -413,7 +489,7 @@ a.githublink {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 200;
   background-color: white;
-  clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%);
+  /* clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%); */
 }
 
 
@@ -463,6 +539,16 @@ a.githublink {
 }
 
 
+.technologiesimage {
+	width: 60%;
+}
+
+@media (min-width: 769px) {
+    .technologiesimage {
+			width: 100%;
+    }
+}
+
 
 
 
@@ -471,7 +557,7 @@ a.githublink {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 200;
   background-color: #E87039;
-  clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%);
+  /* clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%); */
 }
 
 
@@ -521,6 +607,10 @@ a.githublink {
 }
 
 
+a.smallerboxlink {
+	color: white;
+	text-decoration: none;
+}
 
 
 a.linkboxsmallerlink {
@@ -587,7 +677,7 @@ a.allprojectslink:hover {
   background-color: white;
   min-height: 500px;
   margin-top:-80px;
-  clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%);
+  /* clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%); */
 }
 
 
@@ -638,7 +728,7 @@ a.allprojectslink:hover {
     }
 }
 
-.justifyleft {
+.textalignleft {
 	text-align: left;
 }
 
@@ -654,10 +744,10 @@ a.allprojectslink:hover {
 	background-color: yellow;
 }
 
-
-div.row.justify-content-center.align-self-center.textcenter {
-		text-align: center;
+.justify {
+	text-align: justify;
 }
+
 
 
 
@@ -672,16 +762,55 @@ div.row.justify-content-center.align-self-center.textcenter {
   background-color: #E87039;
   min-height: 500px;
   margin-top:-80px;
-  clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 100%);
+  /* clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 100%); */
 }
 
-.inmyfreetime_interior {
-	padding-top:200px;
-	padding-bottom:200px;
-	padding-left: 200px;
-	padding-right: 200px;
-	text-align: center;
+@media (max-width: 300px) {
+	.inmyfreetime_interior {
+		text-align: center;
+		width: 80%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top:250px;
+		padding-bottom:250px;
+	}
 }
+@media (min-width: 301px) and (max-width: 600px) {
+	.inmyfreetime_interior {
+		text-align: center;
+		width: 80%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top:250px;
+		padding-bottom:250px;
+	}
+}
+@media (min-width: 601px) and (max-width: 768px) {
+	.inmyfreetime_interior {
+		text-align: center;
+		width: 80%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top:250px;
+		padding-bottom:250px;
+	}
+}
+@media (min-width: 769px) {
+    .inmyfreetime_interior {
+			text-align: center;
+			width: 60%;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			padding-top:250px;
+			padding-bottom:250px;
+    }
+}
+
+
 
 
 /* ========================= Sections / End ========================= */
@@ -692,7 +821,7 @@ div.row.justify-content-center.align-self-center.textcenter {
 	color: #888;
   min-height: 70px;
   margin-top:-40px;
-  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+  /* clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%); */
 }
 
 .footer_inside {
