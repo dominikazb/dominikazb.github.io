@@ -741,16 +741,6 @@ a.linkboxsmallerlink {
 
 
 
-.linkbox-wrapper {
-	padding-top: 30px;
-}
-
-@media (min-width: 769px) {
-    .linkbox-wrapper {
-    }
-}
-
-
 .linkboxsmaller:hover {
 	border-color: #888;
 	text-decoration: none;
