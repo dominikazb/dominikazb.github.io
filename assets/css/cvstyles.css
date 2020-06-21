@@ -137,72 +137,56 @@ body, html {
 
 /* ========================= Sections ========================= */
 
-#cvmainpage {
+#paper {
 	font: Raleway;
-	font-size: 17px;
-	background-color: #E87039;
+	font-size: 12px;
+	background-color: #white;
 }
+
 
 
 @media (max-width: 300px) {
-	.cvmainpage_inside {
+	.paper_inside {
+		width: 90%;
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 90%;
 	}
 }
 @media (min-width: 301px) and (max-width: 600px) {
-	.cvmainpage_inside {
+	.paper_inside {
+		width: 90%;
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 90%;
 	}
 }
 @media (min-width: 601px) and (max-width: 768px) {
-	.cvmainpage_inside {
+	.paper_inside {
+		width: 90%;
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 80%;
 	}
 }
 @media (min-width: 769px) {
-    .cvmainpage_inside {
+    .paper_inside {
+			width: 90%;
 			display: block;
 			margin-left: auto;
 			margin-right: auto;
-			width: 80%;
     }
 }
-
 
 @media (min-width: 1200px) {
-    .cvmainpage_inside {
+    .paper_inside {
+			width: 80%;
 			display: block;
 			margin-left: auto;
 			margin-right: auto;
-			width: 80%;
     }
 }
 
-
-.paper {
-	background-color: white;
-	border-style: solid;
-	border-width: 1px;
-	border-color: white;
-	border-radius: 20px;
-	padding-top:50px;
-	padding-bottom:50px;
-	padding-left: 20px;
-	padding-right: 20px;
-
-	-webkit-box-shadow: 0 0 10px #fff;
-	        box-shadow: 0 0 10px #fff;
-
-}
 
 
 .emptyspace {
@@ -215,7 +199,7 @@ body, html {
 /* ============================= Experience ============================= */
 #experience {
 	font: Raleway;
-	font-size: 20px;
+	font-size: 14px;
 }
 
 
@@ -238,7 +222,7 @@ body, html {
 }
 @media (min-width: 601px) and (max-width: 768px) {
 	.experience_inside {
-		width: 90%;
+		width: 70%;
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
@@ -246,13 +230,18 @@ body, html {
 }
 @media (min-width: 769px) {
     .experience_inside {
-			width: 90%;
+			width: 70%;
 			display: block;
 			margin-left: auto;
 			margin-right: auto;
     }
 }
 
+
+
+h1.centertitle {
+	text-align: center;
+}
 
 .gray {
 	color: #888;
@@ -263,7 +252,11 @@ body, html {
 }
 
 .companyname {
-	font-size: 18px;
+	font-size: 12px;
+}
+
+.alignright {
+	text-align: right;
 }
 
 div.col-sm-9 {
@@ -305,18 +298,234 @@ a.projectlink:hover {
 
 
 
+.whitebackground {
+	background-color: white;
+}
+
+.graybackground {
+	background-color: #ccc;
+}
+
+
 
 
 /* ============================= Education ============================= */
+#education {
+	font: Raleway;
+	font-size: 14px;
+}
 
-/* ============================= Awards ============================= */
 
 
-/* ============================= Publications ============================= */
+@media (max-width: 300px) {
+	.education_inside {
+		width: 90%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+@media (min-width: 301px) and (max-width: 600px) {
+	.education_inside {
+		width: 90%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+@media (min-width: 601px) and (max-width: 768px) {
+	.education_inside {
+		width: 70%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+@media (min-width: 769px) {
+    .education_inside {
+			width: 70%;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+    }
+}
 
 
-/* ============================= Conferences ============================= */
+
 
 
 
 /* ============================= Courses ============================= */
+#courses {
+	font: Raleway;
+	font-size: 14px;
+}
+
+
+
+@media (max-width: 300px) {
+	.courses_inside {
+		width: 90%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+@media (min-width: 301px) and (max-width: 600px) {
+	.courses_inside {
+		width: 90%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+@media (min-width: 601px) and (max-width: 768px) {
+	.courses_inside {
+		width: 70%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+@media (min-width: 769px) {
+    .courses_inside {
+			width: 70%;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+    }
+}
+
+
+
+
+
+
+/* ============================= Communication and Skills ============================= */
+#communicationskills {
+	font: Raleway;
+	font-size: 14px;
+}
+
+
+
+@media (max-width: 300px) {
+	.communicationskills_inside {
+		width: 90%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+@media (min-width: 301px) and (max-width: 600px) {
+	.communicationskills_inside {
+		width: 90%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+@media (min-width: 601px) and (max-width: 768px) {
+	.communicationskills_inside {
+		width: 70%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+@media (min-width: 769px) {
+    .communicationskills_inside {
+			width: 70%;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+    }
+}
+
+
+
+
+/* ============================= Publications ============================= */
+#publications {
+	font: Raleway;
+	font-size: 14px;
+}
+
+
+
+@media (max-width: 300px) {
+	.publications_inside {
+		width: 90%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+@media (min-width: 301px) and (max-width: 600px) {
+	.publications_inside {
+		width: 90%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+@media (min-width: 601px) and (max-width: 768px) {
+	.publications_inside {
+		width: 70%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+@media (min-width: 769px) {
+    .publications_inside {
+			width: 70%;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+    }
+}
+
+
+
+
+/* ============================= Awards and scholarships ============================= */
+#awards {
+	font: Raleway;
+	font-size: 14px;
+}
+
+
+
+@media (max-width: 300px) {
+	.awards_inside {
+		width: 90%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+@media (min-width: 301px) and (max-width: 600px) {
+	.awards_inside {
+		width: 90%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+@media (min-width: 601px) and (max-width: 768px) {
+	.awards_inside {
+		width: 70%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+@media (min-width: 769px) {
+    .awards_inside {
+			width: 70%;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+    }
+}
