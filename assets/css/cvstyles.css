@@ -188,9 +188,20 @@ body, html {
 }
 
 
+a.sectionlinks {
+	text-decoration: none;
+	color: white;
+}
+
+a.sectionlinks:hover {
+	text-decoration: none;
+	color: #E87039;
+}
+
+
 
 .emptyspace {
-	background-color: #E87039;
+	/* background-color: #E87039; */
 	height: 120px;
 }
 
