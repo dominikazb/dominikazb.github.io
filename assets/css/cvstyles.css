@@ -313,8 +313,12 @@ a.projectlink:hover {
 	background-color: white;
 }
 
-.graybackground {
-	background-color: #ccc;
+.orangebackground {
+	background-color: #E87039;
+}
+
+.white {
+	color: white;
 }
 
 
@@ -359,6 +363,16 @@ a.projectlink:hover {
 			margin-left: auto;
 			margin-right: auto;
     }
+}
+
+a.orangelink {
+	color: yellow;
+	text-decoration: none;
+}
+
+a.orangelink:hover {
+	color: white;
+	text-decoration: none;
 }
 
 
@@ -407,6 +421,16 @@ a.projectlink:hover {
     }
 }
 
+a.orangelinkwhitebackground {
+	color: #E87039;
+	text-decoration: none;
+}
+
+a.orangelinkwhitebackground:hover {
+	color: red;
+	text-decoration: none;
+}
+
 
 
 
@@ -453,7 +477,9 @@ a.projectlink:hover {
     }
 }
 
-
+.justifytext {
+	text-align: justify;
+}
 
 
 /* ============================= Publications ============================= */
