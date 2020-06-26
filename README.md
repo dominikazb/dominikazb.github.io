@@ -14,8 +14,13 @@ Static pages created in HTML, CSS and Javascript. Deployed to Github Pages :)
 
 <b>Screenshots:</b>
 <img src="https://github.com/dominikazb/dominikazb.github.io/blob/master/screenshots/portfolio1.jpg">
+<hr>
 <img src="https://github.com/dominikazb/dominikazb.github.io/blob/master/screenshots/portfolio2.jpg">
+<hr>
 <img src="https://github.com/dominikazb/dominikazb.github.io/blob/master/screenshots/portfolio3.jpg">
+<hr>
 <img src="https://github.com/dominikazb/dominikazb.github.io/blob/master/screenshots/portfolio4.jpg">
+<hr>
 <img src="https://github.com/dominikazb/dominikazb.github.io/blob/master/screenshots/portfolio5.jpg">
+<hr>
 <img src="https://github.com/dominikazb/dominikazb.github.io/blob/master/screenshots/portfolio6.jpg">
