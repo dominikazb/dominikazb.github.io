@@ -572,3 +572,109 @@ a.orangelinkwhitebackground:hover {
 			margin-right: auto;
     }
 }
+
+
+
+
+
+
+
+
+#addnewnote {
+    background-color: transparent;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index:1000;
+}
+
+
+.newnotebtn {
+    width:60px;
+    height:60px;
+    overflow: scroll;
+    outline: none; /*removing the shadow*/
+    border: 4px solid #ffffff;
+    border-radius: 50%;
+    color:#ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration:none;
+    background: #E87039;
+    box-shadow: 0 0 3px gray;
+    font-size:20px;
+    font-weight:bold;
+}
+
+
+.newnotebtn:hover {
+     width:70px;
+     height:70px;
+     outline: none; /*removing the shadow*/
+     border: 4px solid #ffffff;
+     border-radius: 50%;
+     color:#ffffff;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     background: #E87039;
+     box-shadow: 0 0 3px gray;
+     font-size:25px;
+     font-weight:bold;
+		 text-decoration: none;
+ }
+
+.newnotebtn:active {
+    width:70px;
+    height:70px;
+    outline: none; /*removing the shadow*/
+    border: 4px solid #ffffff;
+    border-radius: 50%;
+    color:#ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #E87039;
+    box-shadow: 0 0 3px gray;
+    font-size:25px;
+    font-weight:bold;
+		text-decoration: none;
+}
+
+
+.newnotebtn:visited {
+    width:60px;
+    height:60px;
+    overflow: scroll;
+    outline: none; /*removing the shadow*/
+    border: 4px solid #ffffff;
+    border-radius: 50%;
+    color:#ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration:none;
+    background: #E87039;
+    box-shadow: 0 0 3px gray;
+    font-size:20px;
+    font-weight:bold;
+		text-decoration: none;
+}
+
+
+
+
+.round-button-circle:hover {
+    background:#30588e;
+}
