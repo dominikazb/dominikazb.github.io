@@ -249,22 +249,40 @@ a:hover {
 }
 
 .phdthesis {
-	padding-top:20px;
-	border-style: solid;
-	border-color: black;
-	border-width: 4px;
+	padding-top:50px;
 	text-align: center;
 	width: 100%;
 	font-size: 30px;
 }
 
+a.whitelink {
+	color: yellow;
+	text-decoration: none;
+}
+
+a.whitelink:hover {
+	color: white;
+	text-decoration: none;
+}
+
+.white {
+	color: white;
+}
+
+.black {
+	color: yellow;
+}
+
+
 .references {
 	text-align: left;
 	padding: 20px;
-	border-style: solid;
-	border-color: black;
-	border-width: 4px;
 
+}
+
+.publications {
+	padding: 20px;
+	padding-bottom:50px;
 }
 
 .linksreferences {
@@ -280,4 +298,16 @@ a:hover {
 	border-style: solid;
 	border-color: black;
 	border-width: 2px;
+}
+
+
+
+.orangebackground {
+	background-color: #E87039;
+	border-radius: 10px;
+}
+
+
+.phdcover {
+	width: 60%;
 }
