@@ -3,6 +3,81 @@
 const myData = JSON.parse(data);
 
 
+// *************** section experience ***************
+const experienceContainer = document.querySelector('#experience--line');
+const experienceArr = myData[5].experience.reverse();
+
+
+    experienceArr.forEach(experience => {
+
+        const responsibilitiesArr = experience.responsibilities;
+        let responsibilititesToInsert = ``;
+
+        responsibilitiesArr.forEach(responsibility => {
+            responsibilititesToInsert += `<li>${responsibility}</li>`;
+        });
+
+
+        const achievementsArr = experience.achievements;
+        let achievementsToInsert = ``;
+
+        achievementsArr.forEach(achievement => {
+            achievementsToInsert += `<li>${achievement}</li>`;
+        });
+
+        const image = `
+        <div class="centerleftalign">
+            <a href="${experience.link}" target="_blank">
+                <img class="seeappimage" src="${experience.image}">
+            </a>
+        </div>`;
+
+
+        const experienceToInsert = `
+        <div class="row">
+            <div class="col-sm-2">
+                <div class="d-flex flex-column">
+                    <img class="align-self-center" src="${experience.logo}" height="50px">
+                </div>
+            </div>
+
+            <div class="col-sm-10">
+                <div class="row">
+                    <div class="col-sm-9">
+                        <div class="centerleftalign">
+                            <b>${experience.position}</b>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="alignrightandcenter">
+                            <p class="gray">${experience.dates}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="justify">
+                    <div class="centerleftalign">
+                        <p class="companyname gray">${experience.company}</p>
+                    </div>
+                    <br>
+                    ${experience.showProjectLink ? `<p><h4>Project: <a class="projectlink" href="${experience.link}" target="_blank">${experience.linkText}</a></h4></p>` : ""}
+                    ${experience.showText1 ? `${experience.text1}<br><br>` : ""}
+                    ${experience.showText2 ? `${experience.text2}<br><br>` : ""}
+                    ${experience.showText3 ? `${experience.text3}<br><br>` : ""}
+                    ${experience.showResponsibilities ? `<p>Responsibilities:</p><ul>${responsibilititesToInsert}</ul><br>` : ''}
+                    ${experience.showAchievements ? `<p>Achievements:</p><ul>${achievementsToInsert}</ul><br>` : ''}
+                    ${experience.showText4 ? `${experience.text4}<br>` : ""}
+                    ${experience.showImage ? image : ''}
+                    <br>
+                    
+                    <hr>
+                    <br>
+                </div>
+            </div>
+        </div>`;
+
+        experienceContainer.insertAdjacentHTML('afterend', experienceToInsert);
+    });
+
 
 
 // *************** section education ***************
@@ -85,7 +160,7 @@ communicationSkillsArr.forEach(skill => {
             </p>
         </div>
     </div>`;
-    
+
     communicationSkillsContainer.insertAdjacentHTML('afterend', skillToInsert);
 });
 
