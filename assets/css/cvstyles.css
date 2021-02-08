@@ -7,6 +7,12 @@ body, html {
 }
 
 
+
+.lineWithSpaceUnder {
+	padding-bottom: 30px;
+}
+
+
 /* ========================= Menu Tilt ========================= */
 
  #paper-back {
