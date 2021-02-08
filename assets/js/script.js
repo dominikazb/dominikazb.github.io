@@ -80,13 +80,12 @@ communicationSkillsArr.forEach(skill => {
     <div class="row">
         <div class="col-sm-2">${skill.date}</div>
         <div class="col-sm-10">
-            <p>
-            ${skill.event}<br>
+            <p>${skill.event}<br>
             <span class="orangedarkertitle">Title: ${skill.title}</span>
             </p>
         </div>
     </div>`;
-
+    
     communicationSkillsContainer.insertAdjacentHTML('afterend', skillToInsert);
 });
 

@@ -9,7 +9,7 @@ data = `[
                 "descriptionLinkText": ">>see full list of courses<<",
                 "descriptionLink" : "https://dominikazb.github.io/#courses",
                 "timeline": "2018-now",
-                "icon": "./assets/graphics/logo/logoSelfStudying.png"
+                "icon": "./assets/graphics/logo/logoEducation.png"
             },
             {
                 "title": "Doctor of Philosophy - PhD, Biophysics",
@@ -300,7 +300,7 @@ data = `[
             },
             {
                 "date": "27/06/2012",
-                "event": "evOral Presentation, CYTO2012, Leipzig",
+                "event": "Oral Presentation, CYTO2012, Leipzig",
                 "title": "UV-activated conversion of DNA dyes, Hoechst and DAPI, into blue-excited, green-to-orange emitting forms. International Society for Advanced Cytometry."
             },
             {
