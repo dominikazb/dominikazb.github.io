@@ -8,7 +8,7 @@ data = `[
                 "linkExists": true,
                 "descriptionLinkText": ">>see full list of courses<<",
                 "descriptionLink" : "https://dominikazb.github.io/#courses",
-                "timeline": "2018-now",
+                "timeline": "2018-2020",
                 "icon": "./assets/graphics/logo/logoEducation.png"
             },
             {
@@ -423,15 +423,16 @@ data = `[
                 "link": "",
                 "linkText": "",
                 "showText1": true,
-                "text1": "As Junior Java Developer I joined...",
+                "text1": "Altkom Software & Consulting is a software house providing modern solutions for clients mostly in the financial and insurance sector. The company has already 20-years of experience in developing software. I have been working intensively on developing modern web applications using both backend and frontend technologies.",
                 "showText2": false,
                 "text2": "",
                 "showText3": false,
                 "text3": "",
                 "showResponsibilities": true,
                 "responsibilities": [
-                    "writing backend-code (Java, Spring Framework)",
-                    "writing frontend-code (JavaScript, TypeScript, Angular)"
+                    "development and maintenance of backend applications (Java, Spring Framework)",
+                    "development and maintenance of frontend applications (Angular, Angular.js, JavaScript, TypeScript)",
+                    "writing SQL queries"
                 ],
                 "showAchievements": false,
                 "achievements": [],
@@ -456,18 +457,14 @@ data = `[
                 "text3": "This online tool calculates correct doses of opioid drugs when switching opioid to another.",
                 "showResponsibilities": true,
                 "responsibilities": [
-                    "developing front-end of the application", 
-                    "developing back-end of the application",
+                    "developing and designing frontend of the application", 
+                    "developing and designign backend of the application",
                     "writing the algorithm for calculating correct doses of opioid drugs",
                     "deploying the application to Google App Engine",
                     "testing the application"
                 ],
                 "showAchievements": false,
-                "achievements": [
-                    "achievement1", 
-                    "achievement2",
-                    "achievement3"
-                ],
+                "achievements": [],
                 "showText4": false,
                 "text4": "",
                 "showImage": true,
@@ -492,8 +489,8 @@ data = `[
                 "responsibilities": [
                     "designing the database",
                     "entering data into database",
-                    "developing front-end of the application",
-                    "developing back-end of the application",
+                    "developing frontend of the application",
+                    "developing backend of the application",
                     "writing the algorithm for analyzing text and collecting patient’s symptoms from the epicrisis",
                     "writing the algorithm for suggesting medical diagnoses based on patient’s symptoms",
                     "deploying the application to Amazon Web Services Elastic Beanstalk environment",

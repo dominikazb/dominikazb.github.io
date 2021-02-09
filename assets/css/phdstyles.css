@@ -211,11 +211,14 @@ body, html {
 	text-align: justify;
 }
 
+
+
+
+
+
 .figureimg {
 	width: 100%;
 }
-
-
 
 .figurecaption {
 	font-size: 12px;
@@ -255,6 +258,11 @@ a:hover {
 	font-size: 30px;
 }
 
+
+
+
+
+
 a.whitelink {
 	color: #707070;
 	text-decoration: none;
@@ -265,13 +273,17 @@ a.whitelink:hover {
 	text-decoration: none;
 }
 
-.white {
+.grey_shade {
 	color: #A9A9A9;
 }
 
-.black {
+.greyDarker {
 	color: #707070;
 }
+
+
+
+
 
 
 .references {
@@ -302,7 +314,7 @@ a.whitelink:hover {
 
 
 
-.orangebackground {
+.side-bar--grey-background {
 	background-color: #F5F5F5;
 	border-radius: 10px;
 }

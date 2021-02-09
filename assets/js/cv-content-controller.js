@@ -2,7 +2,6 @@
 
 const myData = JSON.parse(data);
 
-
 // *************** section experience ***************
 const experienceContainer = document.querySelector('#experience--line');
 const experienceArr = myData[5].experience.reverse();
@@ -58,7 +57,7 @@ const experienceArr = myData[5].experience.reverse();
                     <div class="centerleftalign">
                         <p class="companyname gray">${experience.company}</p>
                     </div>
-                    <br>
+                    
                     ${experience.showProjectLink ? `<p><h4>Project: <a class="projectlink" href="${experience.link}" target="_blank">${experience.linkText}</a></h4></p>` : ""}
                     ${experience.showText1 ? `${experience.text1}<br><br>` : ""}
                     ${experience.showText2 ? `${experience.text2}<br><br>` : ""}
