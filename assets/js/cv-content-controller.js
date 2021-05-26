@@ -1,5 +1,34 @@
 'use strict';
 
+const btnExperience = document.querySelector('#btn--experience');
+const btnEducation = document.querySelector('#btn--education');
+const btnCourses = document.querySelector('#btn--courses');
+const btnCommunicationSkills = document.querySelector('#btn--communication-skills');
+const btnPublications = document.querySelector('#btn--publications');
+const btnAwardsAndScholarships = document.querySelector('#btn--awards-and-scholarships');
+
+const sectionExperience = document.querySelector('#section--experience');
+const sectionEducation = document.querySelector('#section--education');
+const sectionCourses = document.querySelector('#section--courses');
+const sectionCommunicationSkills = document.querySelector('#section--communication-skills');
+const sectionPublications = document.querySelector('#section--publications');
+const sectionAwardsAndScholarships = document.querySelector('#section--awards-and-scholarships');
+
+btnExperience.addEventListener('click', function() {
+    sectionExperience.scrollIntoView({
+        behavior: 'smooth'
+    });
+});
+
+btnEducation.addEventListener('click', function() {
+    sectionEducation.scrollIntoView({
+        behavior: 'smooth'
+    });
+});
+
+
+
+
 const myData = JSON.parse(data);
 
 // *************** section experience ***************

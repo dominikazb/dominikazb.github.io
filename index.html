@@ -29,18 +29,18 @@
 
       <div class="d-flex justify-content-center">
         <div class="btn-group flex-wrap" role="group" aria-label="Basic example">
-          <button type="button" class="btn btn-danger btn-lg mr-1 additionalmargin"><a class="sectionlinks"
-              href="#sectionName">Experience</a></button>
-          <button type="button" class="btn btn-danger btn-lg mr-1 additionalmargin"><a class="sectionlinks"
-              href="#sectionName">Education</a></button>
-          <button type="button" class="btn btn-danger btn-lg mr-1 additionalmargin"><a class="sectionlinks"
-              href="#sectionName">Courses</a></button>
-          <button type="button" class="btn btn-danger btn-lg mr-1 additionalmargin"><a class="sectionlinks"
-              href="#sectionName">Communication Skills</a></button>
-          <button type="button" class="btn btn-danger btn-lg mr-1 additionalmargin"><a class="sectionlinks"
-              href="#sectionName">Publications</a></button>
-          <button type="button" class="btn btn-danger btn-lg mr-1 additionalmargin"><a class="sectionlinks"
-              href="#sectionName">Awards and scholarships</a></button>
+          <button id="btn--experience" type="button" class="btn btn-danger btn-lg mr-1 additionalmargin"><a class="sectionlinks"
+              href="#">Experience</a></button>
+          <button id="btn--education" type="button" class="btn btn-danger btn-lg mr-1 additionalmargin"><a class="sectionlinks"
+              href="#section--education">Education</a></button>
+          <button id="btn--courses" type="button" class="btn btn-danger btn-lg mr-1 additionalmargin"><a class="sectionlinks"
+              href="#section--courses">Courses</a></button>
+          <button id="btn--communication-skills" type="button" class="btn btn-danger btn-lg mr-1 additionalmargin"><a class="sectionlinks"
+              href="#section--communication-skills">Communication Skills</a></button>
+          <button id="btn--publications" type="button" class="btn btn-danger btn-lg mr-1 additionalmargin"><a class="sectionlinks"
+              href="#section--publications">Publications</a></button>
+          <button id="btn--awards-and-scholarships" type="button" class="btn btn-danger btn-lg mr-1 additionalmargin"><a class="sectionlinks"
+              href="#section--awards-and-scholarships">Awards and scholarships</a></button>
         </div>
       </div>
 
@@ -48,11 +48,14 @@
       <div id="experience">
         <div class="section_inside">
           <div class="emptyspace160px"></div>
-          <h1 class="centertitle">Experience</h1>
-          <hr id="experience--line" class="lineWithSpaceUnder">
-          <div class="emptyspace160px"></div>
+          <section id="section--experience"></section>
+            <h1 class="centertitle">Experience</h1>
+            <hr id="experience--line" class="lineWithSpaceUnder">
+            <div class="emptyspace160px"></div>
+          </section>
         </div>
       </div>
+
     </div>
 
     <!-- =============== Education =============== -->
@@ -60,25 +63,30 @@
       <div class="emptyspace160px"></div>
       <div id="education">
         <div class="section_inside white">
-          <h1 class="centertitle white">Education</h1>
-          <br>
-          <hr id="education--line" class="lineWithSpaceUnder">
-          <!-- education -->
-          <div class="emptyspace80px"></div>
+          <section id="section--education"></section>
+            <h1 class="centertitle white">Education</h1>
+            <br>
+            <hr id="education--line" class="lineWithSpaceUnder">
+            <!-- education -->
+            <div class="emptyspace80px"></div>
+          </section>
         </div>
       </div>
-    </div>
+    </div>  
+
 
     <!-- =============== Courses =============== -->
     <div class="whitebackground">
       <div class="emptyspace160px"></div>
       <div id="courses">
         <div class="section_inside justifytext">
-          <h1 id="section-courses" class="centertitle">Courses</h1>
-          <br>
-          <hr id="courses--line" class="lineWithSpaceUnder">
-          <!-- list of courses -->
-          <div class="emptyspace160px"></div>
+          <section id="section--courses"></section>
+            <h1 id="section-courses" class="centertitle">Courses</h1>
+            <br>
+            <hr id="courses--line" class="lineWithSpaceUnder">
+            <!-- list of courses -->
+            <div class="emptyspace160px"></div>
+          </section>
         </div>
       </div>
     </div>
@@ -88,42 +96,50 @@
       <div class="emptyspace160px"></div>
       <div id="communicationskills">
         <div class="section_inside justifytext white">
-          <h1 class="centertitle white">Communication skills</h1>
-          <br>
-          <hr id="communication-skills--line" class="lineWithSpaceUnder">
-          <!-- communication skills -->
-          <div class="emptyspace160px"></div>
+          <section id="section--communication-skills"></section>
+            <h1 class="centertitle white">Communication skills</h1>
+            <br>
+            <hr id="communication-skills--line" class="lineWithSpaceUnder">
+            <!-- communication skills -->
+            <div class="emptyspace160px"></div>
+          </section>
         </div>
       </div>
     </div>
-
+    
+    
     <!-- =============== Publications =============== -->
     <div class="whitebackground">
       <div class="emptyspace160px"></div>
       <div id="publications">
         <div class="section_inside justifytext">
-          <h1 class="centertitle">Publications</h1>
-          <br>
-          <hr id="publications--line" class="lineWithSpaceUnder">
-          <!-- publications -->
-          <div class="emptyspace160px"></div>
+          <section id="section--publications"></section>
+            <h1 class="centertitle">Publications</h1>
+            <br>
+            <hr id="publications--line" class="lineWithSpaceUnder">
+            <!-- publications -->
+            <div class="emptyspace160px"></div>
+          </section>
         </div>
       </div>
     </div>
-
+    
     <!-- =============== Awards & scholarships =============== -->
     <div class="orangebackground">
       <div class="emptyspace160px"></div>
       <div id="awards">
         <div class="section_inside white justifytext">
+          <section id="section--awards-and-scholarships"></section>
           <h1 class="centertitle white">Awards & scholarships</h1>
           <br>
           <hr id="awardsAndScholarships--line" class="lineWithSpaceUnder">
           <!-- awards and scholarships -->
           <div class="emptyspace160px"></div>
+          </section>
         </div>
       </div>
-    </div>
+    </div>  
+  
   </div>
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

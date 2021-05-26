@@ -47,6 +47,20 @@ data = `[
         "courses": [
             {
                 "date": 2021,
+                "name": "Complete Guide to Elasticsearch",
+                "platform": "Udemy",
+                "link": "https://www.udemy.com/course/elasticsearch-complete-guide/",
+                "timeToComplete": "12 hours"
+            },
+            {
+                "date": 2021,
+                "name": "Kurs wzorce projektowe",
+                "platform": "Javappa",
+                "link": "https://javappa.com/kurs-wzorce-projektowe",
+                "timeToComplete": "5 hours"
+            },
+            {
+                "date": 2021,
                 "name": "Angular - The Complete Guide (2021 Edition)",
                 "platform": "Udemy",
                 "link": "https://www.udemy.com/course/the-complete-guide-to-angular-2/",
@@ -415,7 +429,38 @@ data = `[
     {
         "experience": [
             {
-                "dates": "08.2020-now",
+                "dates": "05.2021-present",
+                "logo": "./assets/graphics/logo/logoAltKom.png",
+                "position": "Full Stack Developer",
+                "company": "AltKom Software & Consulting, Kraków",
+                "showProjectLink": false,
+                "link": "",
+                "linkText": "",
+                "showText1": true,
+                "text1": "Altkom Software & Consulting is a software house providing modern solutions for clients mostly in the financial and insurance sector. The company has already 20-years of experience in developing software. I have been working intensively on developing modern web applications using both backend and frontend technologies.",
+                "showText2": false,
+                "text2": "",
+                "showText3": false,
+                "text3": "",
+                "showResponsibilities": true,
+                "responsibilities": [
+                    "development and maintenance of backend applications (Java, Spring, SQL)",
+                    "development and maintenance of frontend applications (Angular, Angular.js)",
+                    "implementation of the code required to solve a given problem",
+                    "designing applications functionalities",
+                    "analysis of requirements",
+                    "writing SQL queries",
+                    "collaboration with the business team"
+                ],
+                "showAchievements": false,
+                "achievements": [],
+                "showText4": false,
+                "text4": "",
+                "showImage": false,
+                "image": ""
+            },
+            {
+                "dates": "08.2020-04.2021",
                 "logo": "./assets/graphics/logo/logoAltKom.png",
                 "position": "Junior Java Developer",
                 "company": "AltKom Software & Consulting, Kraków",
@@ -430,9 +475,13 @@ data = `[
                 "text3": "",
                 "showResponsibilities": true,
                 "responsibilities": [
-                    "development and maintenance of backend applications (Java, Spring Framework)",
-                    "development and maintenance of frontend applications (Angular, Angular.js, JavaScript, TypeScript)",
-                    "writing SQL queries"
+                    "development and maintenance of backend applications (Java, Spring, SQL)",
+                    "development and maintenance of frontend applications (Angular, Angular.js)",
+                    "implementation of the code required to solve a given problem",
+                    "designing applications functionalities",
+                    "analysis of requirements",
+                    "writing SQL queries",
+                    "collaboration with the business team"
                 ],
                 "showAchievements": false,
                 "achievements": [],
