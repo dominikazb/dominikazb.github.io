@@ -47,6 +47,34 @@ data = `[
         "courses": [
             {
                 "date": 2021,
+                "name": "Instant Test Driven Development with Java, JUnit and Mockito",
+                "platform": "Udemy",
+                "link": "https://www.udemy.com/course/instant-test-driven-development-with-junit/",
+                "timeToComplete": "4 hours"
+            },
+            {
+                "date": 2021,
+                "name": "Praktyczny kurs testów jednostkowych",
+                "platform": "szkolatestow.online",
+                "link": "https://szkolatestow.online/testy-jednostkowe-od-podstaw/",
+                "timeToComplete": "? hours :)"
+            },
+            {
+                "date": 2021,
+                "name": "Kurs JAVA - testy jednostkowe",
+                "platform": "strefakursów.pl",
+                "link": "https://strefakursow.pl/kursy/programowanie/kurs_java_-_testy_jednostkowe.html",
+                "timeToComplete": "4.5 hours"
+            },
+            {
+                "date": 2021,
+                "name": "Projektowanie RESTful API - dobre praktyki",
+                "platform": "strefakursów.pl",
+                "link": "https://strefakursow.pl/kursy/programowanie/projektowanie_restful_api_-_dobre_praktyki.html",
+                "timeToComplete": "4.5 hours"
+            },
+            {
+                "date": 2021,
                 "name": "Complete Guide to Elasticsearch",
                 "platform": "Udemy",
                 "link": "https://www.udemy.com/course/elasticsearch-complete-guide/",
@@ -57,7 +85,7 @@ data = `[
                 "name": "Kurs wzorce projektowe",
                 "platform": "Javappa",
                 "link": "https://javappa.com/kurs-wzorce-projektowe",
-                "timeToComplete": "5 hours"
+                "timeToComplete": "6 hours"
             },
             {
                 "date": 2021,
