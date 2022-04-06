@@ -46,6 +46,48 @@ data = `[
     {
         "courses": [
             {
+                "date": 2022,
+                "name": "React - The Complete Guide (incl Hooks, React Router, Redux)",
+                "platform": "Udemy",
+                "link": "https://www.udemy.com/course/react-the-complete-guide-incl-redux/",
+                "timeToComplete": "50 hours"
+            },
+            {
+                "date": 2022,
+                "name": "Unit testing your Javascript with jasmine",
+                "platform": "Udemy",
+                "link": "https://www.udemy.com/course/unit-testing-your-javascript-with-jasmine/",
+                "timeToComplete": "6 hours"
+            },
+            {
+                "date": 2022,
+                "name": "Java Reactive Programming [ From Scratch ]",
+                "platform": "Udemy",
+                "link": "https://www.udemy.com/course/complete-java-reactive-programming/",
+                "timeToComplete": "12 hours"
+            },
+            {
+                "date": 2021,
+                "name": "MongoDB - The Complete Developer's Guide 2022",
+                "platform": "Udemy",
+                "link": "https://www.udemy.com/course/mongodb-the-complete-developers-guide/",
+                "timeToComplete": "18 hours"
+            },
+            {
+                "date": 2021,
+                "name": "CSS - The Complete Guide 2022 (incl. Flexbox, Grid & Sass)",
+                "platform": "Udemy",
+                "link": "https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass/",
+                "timeToComplete": "23 hours"
+            },
+            {
+                "date": 2021,
+                "name": "Szkoła testowania backendu",
+                "platform": "Udemy",
+                "link": "https://testowaniebackendu.pl/",
+                "timeToComplete": "13 hours"
+            },
+            {
                 "date": 2021,
                 "name": "Instant Test Driven Development with Java, JUnit and Mockito",
                 "platform": "Udemy",
