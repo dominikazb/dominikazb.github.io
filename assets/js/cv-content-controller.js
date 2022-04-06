@@ -74,7 +74,7 @@ const experienceArr = myData[5].experience.reverse();
             </div>
         </div>`;
 
-        experienceContainer.insertAdjacentHTML('afterend', experienceToInsert);
+        // experienceContainer.insertAdjacentHTML('afterend', experienceToInsert);
     });
 
 
@@ -118,7 +118,7 @@ educationArr.forEach(education => {
     </div>
     <div class="littlespace"></div><div class="littlespace"></div>`;
 
-    educationContainer.insertAdjacentHTML('afterend', educationToInsert);
+    // educationContainer.insertAdjacentHTML('afterend', educationToInsert);
 });
 
 
