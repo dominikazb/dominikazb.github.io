@@ -46,6 +46,76 @@ data = `[
     {
         "courses": [
             {
+                "date": 2023,
+                "name": "Współbieżność",
+                "platform": "sztukakodu.pl",
+                "link": "https://www.sztukakodu.pl/wspolbieznosc/",
+                "timeToComplete": "11-modułowy program"
+            },
+            {
+                "date": 2023,
+                "name": "Szkoła Springa",
+                "platform": "sztukakodu.pl",
+                "link": "https://www.sztukakodu.pl/spring/",
+                "timeToComplete": "9-cio tygodniowy program"
+            },
+            {
+                "date": 2023,
+                "name": "Docker - Hands On for Java Developers",
+                "platform": "Udemy",
+                "link": "https://www.udemy.com/course/docker-hands-on/",
+                "timeToComplete": "8.5 hours"
+            },
+            {
+                "date": 2023,
+                "name": "Testing Spring Boot: Beginner to Guru",
+                "platform": "Udemy",
+                "link": "https://www.udemy.com/course/testing-spring-boot-beginner-to-guru/",
+                "timeToComplete": "17 hours"
+            },
+            {
+                "date": 2023,
+                "name": "Spring Boot Unit Testing with JUnit, Mockito and MockMvc",
+                "platform": "Udemy",
+                "link": "https://www.udemy.com/course/spring-boot-unit-testing/",
+                "timeToComplete": "10 hours"
+            },
+            {
+                "date": 2022,
+                "name": "Program Java Developer",
+                "platform": "Software Skill",
+                "link": "https://softwareskill.pl/program/java-developer?utm_source=softwareskill&utm_medium=link&utm_campaign=top-menu&utm_content=javadev",
+                "timeToComplete": "13 hours"
+            },
+            {
+                "date": 2022,
+                "name": "Java Lambda & Streams [Examples With Selenium WebDriver]",
+                "platform": "Udemy",
+                "link": "https://www.udemy.com/course/java-8-and-beyond-for-testers/",
+                "timeToComplete": "13 hours"
+            },
+            {
+                "date": 2022,
+                "name": "Master Spring Boot Microservices with CQRS & Event Sourcing",
+                "platform": "Udemy",
+                "link": "https://www.udemy.com/course/master-spring-boot-microservices-with-cqrs-event-sourcing/",
+                "timeToComplete": "7 hours"
+            },
+            {
+                "date": 2022,
+                "name": "Java Microservices: CQRS & Event Sourcing with Kafka",
+                "platform": "Udemy",
+                "link": "https://www.udemy.com/course/java-microservices-cqrs-event-sourcing-with-kafka/",
+                "timeToComplete": "4.5 hours"
+            },
+            {
+                "date": 2022,
+                "name": "Spring Professional Certification Exam Tutorial (modules 1-8)",
+                "platform": "Udemy",
+                "link": "https://www.udemy.com/course/spring-certified-tutorial/",
+                "timeToComplete": "30 hours"
+            },
+            {
                 "date": 2022,
                 "name": "React - The Complete Guide (incl Hooks, React Router, Redux)",
                 "platform": "Udemy",
@@ -54,7 +124,7 @@ data = `[
             },
             {
                 "date": 2022,
-                "name": "Unit testing your Javascript with jasmine",
+                "name": "Unit testing your Javascript with Jasmine",
                 "platform": "Udemy",
                 "link": "https://www.udemy.com/course/unit-testing-your-javascript-with-jasmine/",
                 "timeToComplete": "6 hours"
